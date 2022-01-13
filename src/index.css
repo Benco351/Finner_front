@@ -1,0 +1,62 @@
+
+:root {
+    --main-color-light: rgb(48, 48, 48);
+    --main-color-light-inner: rgb(41, 41, 41);
+    --main-color-regular: rgb(36, 36, 36);
+    --main-color-regular-inner: rgb(31, 31, 31);
+    --main-color-dark: rgb(27, 27, 27);
+    --main-color-dark-inner: rgb(14, 14, 14);
+    --header-color: rgb(22,20,22);
+
+    --orange-color: rgb(245, 134, 1);
+    --blue-color: #00B2F6;
+    --purple-color: #973EC6;
+    --green-color: #4caf50;
+    --red-color: #f44336;
+    --yellow-color: rgb(255, 204, 129);
+    --input-color : rgb(91, 91, 91);
+    --grey-color : rgb(121, 121, 121);
+}
+
+a, u {
+  text-decoration: none;
+ 
+}
+
+a:hover, u:hover {
+  text-decoration: underline ;
+}
+
+.button:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+body{
+    background-color: var(--main-color-dark-inner);
+    margin: 0;
+    color: white;
+    font-size: 0.95rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+  
+/* Scroll-Bar */
+::-webkit-scrollbar {
+    width: 6px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: var(--input-color);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--main-color-light);
+  }
+  
